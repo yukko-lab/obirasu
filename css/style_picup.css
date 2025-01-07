@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background: #f3f3f3;
+}
+
+img {
+  width: 60%;
+  height: auto;
+}
+
+.a {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.gallery {
+  max-width: 800px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 1px;
+}
+
+.gallery div {
+  position: relative;
+}
+
+#caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(68, 68, 68, 0.5);
+  padding: 5px;
+  width: 30%;
+  box-sizing: border-box;
+  color: #FFF;
+}
+
+#main-image{
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  gap: 10px 10px;
+  padding-left: 90px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+
+.button{
+  width: 100px;
+  height: 30px;
+  background:#ffb23e;
+  text-align: center;
+  padding-top: 10px;
+  margin:0 auto
+}
+
+
+
+header{
+  text-align: center;
+  background: #f3f3f3;
+  padding: 30px;
+}
+
+
+
+
+footer {
+  text-align: center;
+  background: #f3f3f3;
+  height: 100px;
+ padding-top: 80px;
+}
+
+
+/* 以下を追加 */
+/* PC時 */
+@media screen and (min-width: 767px) {
+  /*ウィンドウ幅が767px以上の場合に適用*/
+}
+
+/* タブレット用 */
+@media screen and (max-width: 767px) {
+  /*ウィンドウ幅が最大767pxまでの場合に適用*/
+}
+
+/* スマホ用 */
+@media screen and (max-width: 479px) {
+  /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  .allContents {
+    display: block;
+  }
+}
+/* ここまで追加 */
