@@ -10,9 +10,23 @@ body {
   }
 
 
+.dai img{
+    width: 200px;
+    height: 60px;
+}
+
+#menu p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 .gallery{
     width: 550px;
-    height: 220px;
+    height: 250px;
     background: #d8d8d8;
     display: flex;
     margin:0 auto
@@ -20,7 +34,7 @@ body {
 
 .gallery2{
   width: 550px;
-  height: 220px;
+  height: 250px;
   background: #ededed;
   display: flex;
   margin:0 auto
@@ -35,7 +49,7 @@ h1 {
   }
 
 
-img{
+main img{
     display: flex;
     width: 100%;
     box-shadow: 0 10px 7px 0 rgba(122, 122, 122, 0.5);
@@ -127,21 +141,28 @@ footer {
       display: block;
     }
 
+
+.dai img{
+    width: 160px;
+    height: 50px;
+  }
+
 .gallery{
     width: 450px;
-    height: 200px;
+    height: 210px;
     background: #d8d8d8;
     display: flex;
     margin:0 auto
   }
   .gallery2{
     width: 450px;
-    height: 200px;
+    height: 210px;
     background: #ededed;
     display: flex;
     margin:0 auto
 }
-    img{
+    
+main img{
       display: flex;
       width: 80%;
       box-shadow: 0 10px 7px 0 rgba(122, 122, 122, 0.5);
@@ -206,14 +227,25 @@ footer {
 }
 
   }
+
+
+
+
   
   /* スマホ用 */
   @media screen and (max-width: 479px) {
     /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+    .dai img{
+      width: 160px;
+      height: 50px;
+  }
+
     .allContents {
       display: block;
     }
-    img{
+    
+ main img{
       display: flex;
       width: 200%;
       box-shadow: 0 10px 7px 0 rgba(122, 122, 122, 0.5);
